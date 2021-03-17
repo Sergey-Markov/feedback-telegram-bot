@@ -4,13 +4,10 @@
 // https://api.telegram.org/bot1799092184:AAHFtJRT6EGKpoK-uPMcnczi4-DMUWg9jMg/getUpdates
 
 //Переменная $name,$phone, $mail получает данные при помощи метода POST из формы
-$name = $_POST['name'];
-$phone = $_POST['phone'];
-$email = $_POST['email'];
-$adress = $_POST['adress'];
-$city = $_POST['city'];
-$state = $_POST['state'];
-$geographic_area = $_POST['geographic_area'];
+$name = $_POST['user_name'];
+$phone = $_POST['user_phone'];
+$email = $_POST['user_email'];
+$adress = $_POST['user_adress'];
 
 
 
